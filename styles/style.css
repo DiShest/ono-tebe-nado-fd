@@ -1,8 +1,13 @@
 .header {
   display: grid;
-  grid-template-columns: 1fr 1fr 240px;
+  grid-template-columns: 1fr min-content 1fr;
   align-items: center;
   padding: 92px 50px 96px 50px;
+}
+
+.header__menu{
+  display: flex;
+  justify-self: center;
 }
 
 
@@ -10,6 +15,12 @@
   display: flex;
   gap: 32px;
   list-style-type: circle;
+  padding-right: 36px;
+}
+
+.header_links-list-item{
+  font-weight: 400;
+  font-size: 18px;
 }
 
 
@@ -26,12 +37,21 @@
   text-decoration: none;
 }
 
-.header_logo {
-  display: block;
+.header__logo {
   width: 148px;
 }
 
+.header__logo-image {
+  display: block;
+
+}
+
+
 .header_address {
+  padding-left: 184px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 135%;
   display: flex;
   flex-direction: column;
   text-decoration: none;
