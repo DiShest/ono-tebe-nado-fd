@@ -5,11 +5,10 @@
   padding: 92px 50px 96px 50px;
 }
 
-.header__menu{
+.header__menu {
   display: flex;
   justify-self: center;
 }
-
 
 .header_links-list {
   display: flex;
@@ -18,12 +17,10 @@
   padding-right: 36px;
 }
 
-.header_links-list-item{
+.header_links-list-item {
   font-weight: 400;
   font-size: 18px;
 }
-
-
 
 .header_links-list-item_no-bullit {
   list-style-type: none;
@@ -43,9 +40,7 @@
 
 .header__logo-image {
   display: block;
-
 }
-
 
 .header_address {
   padding-left: 184px;
@@ -68,7 +63,9 @@
   background-image: url("../images/cover.jpg");
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   z-index: 0;
+  margin-bottom: 180px;
 }
 
 .overlay {
@@ -82,7 +79,10 @@
 }
 
 .cover__title {
-  padding: 165px 50px 207px 50px;
+  display: flex;
+  flex-direction: column;
+  padding: 165px 50px 106px 50px;
+  gap: 20px;
   letter-spacing: 0.3rem;
   color: white;
   font-size: 100px;
@@ -103,31 +103,33 @@
   text-align: right;
 }
 
-
 .cover_description {
   display: flex;
   align-items: baseline;
   justify-content: space-evenly;
-  padding: 0px 50px 55px 78px;
+  padding: 106px 50px 50px 50px;
 }
 
 .cover_description-text {
   color: white;
   text-transform: uppercase;
   font-size: 22px;
+  font-weight: 400;
+  line-height: 127%;
   word-spacing: 18px;
 }
 
 .bet-button {
+  width: 256px;
+  height: 51px;
   border: 1px solid white;
   background: transparent;
   font-size: 22px;
-  padding: 12px 32px;
+  font-weight: 500;
   text-transform: uppercase;
   color: white;
   text-align: center;
 }
-
 
 .lots__heading {
   padding-top: 180px;
@@ -207,8 +209,6 @@
   z-index: 0;
 }
 
-
-
 .lots__look-more-link {
   display: block;
   text-underline-offset: 1px;
@@ -228,8 +228,6 @@
   padding-left: 24px;
   padding-right: 24px;
 }
-
-
 
 .about__logo {
   width: 240px;
@@ -280,7 +278,6 @@
   list-style: none;
 }
 
-
 .footer__menu-link_active {
   text-decoration: none;
 }
@@ -292,7 +289,6 @@
   margin: 0;
   padding: 0;
 }
-
 
 .footer__social-icon {
   width: 48px;
