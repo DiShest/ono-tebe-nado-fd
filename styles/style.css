@@ -231,6 +231,7 @@
 .about__logo {
   width: 240px;
   height: 240px;
+  margin: 35px 72px 320px 47px;
   justify-self: center;
   background: black;
   border-radius: 50%;
