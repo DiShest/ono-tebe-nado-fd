@@ -72,7 +72,7 @@
   background-position: center;
   background-repeat: no-repeat;
   z-index: 0;
-  padding: 165px 32px 106px 24px;
+  padding: 165px 50px 106px 50px;
 }
 
 .overlay {
@@ -80,7 +80,7 @@
   inset: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.6);
   z-index: -1;
 }
 
@@ -99,18 +99,21 @@
 
 .aligned-text {
   display: block;
+  margin-left: -0.3em;
 }
 
 .aligned-text_center {
   text-align: center;
+  margin-left: -0.2em;
 }
 
 .aligned-text_right {
   text-align: right;
+  margin-right: -0.1em;
 }
 
 .cover_description {
-  margin-top: 110px;
+  margin-top: 106px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -125,9 +128,7 @@
   font-size: 22px;
   font-weight: 400;
   line-height: 28px;
-  letter-spacing: 0.06em;
-  word-spacing: normal;
-  max-width: 640px;
+  word-spacing: 18px;
   white-space: nowrap;
 }
 
@@ -153,8 +154,10 @@
 }
 
 .lots__card-list {
+  margin: 0 auto;
   list-style: none;
   display: flex;
+  justify-content: center;
   gap: 34px;
   flex-wrap: wrap;
 }
@@ -224,9 +227,9 @@
 }
 
 .about {
-  margin-top: 30px;
+  margin-top: 35px;
   display: grid;
-  grid-template-columns: 270px 1fr;
+  grid-template-columns: 334px 1fr;
   gap: 25px;
   align-items: start;
   padding-left: 24px;
@@ -236,7 +239,7 @@
 .about__logo {
   width: 240px;
   height: 240px;
-  margin: 35px 72px 0 47px;
+  margin: 20px 72px 0 47px;
   justify-self: center;
   background: black;
   border-radius: 50%;
@@ -261,8 +264,8 @@
   font-weight: 700;
   font-size: 40px;
   padding-top: 40px;
-  padding-left: 72px;
-  margin-top: 85px;
+  padding-left: 0;
+  margin-top: 80px;
 }
 
 .about__text {
@@ -271,11 +274,11 @@
   line-height: 120%;
   display: flex;
   flex-direction: column;
-  gap: 25px;
+  gap: 20px;
   margin-top: 74px;
   padding-top: 0;
-  margin-left: 0;
-  padding-left: 0;
+  margin-left: 0px;
+  padding-left: 0px;
   text-align: left;
 }
 
@@ -287,21 +290,24 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
-  padding: 180px 50px 90px 50px;
+  padding: 115px 50px 90px 50px;
 }
 
 .footer__menu {
   justify-self: center;
   text-align: center;
-  margin-top: -65px;
+  padding-bottom: 10px;
+  padding-left: 8px;
 }
 
 .footer__address {
-  margin-top: -22px;
-  margin-left: 8px;
+  padding-top: 19px;
 }
 
 .footer__menu-list {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 135%;
   list-style: none;
 }
 
@@ -313,9 +319,9 @@
   display: flex;
   gap: 48px;
   list-style: none;
-  margin-top: -80px;
+  margin-top: 0;
+  padding-bottom: 20px;
   margin-left: 100px;
-  padding: 0;
 }
 
 .footer__social-icon {
