@@ -234,6 +234,7 @@
   align-items: start;
   padding-left: 24px;
   padding-right: 24px;
+  margin-bottom: 50px;
 }
 
 .about__logo {
@@ -282,9 +283,6 @@
   text-align: left;
 }
 
-.about__text p {
-  margin-bottom: 26px;
-}
 
 .footer {
   display: grid;
